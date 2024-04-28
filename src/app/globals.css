@@ -31,3 +31,61 @@ body {
     text-wrap: balance;
   }
 }
+
+p, h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .best-mobile {
+    display: none;
+  }
+  .best-descktop {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .best-mobile {
+    display: block;
+  }
+  .best-descktop {
+    display: none;
+  }
+}
+
+
+
+div img {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+div img:hover {
+  opacity: 0.75;
+}
+
+.B-descktop {
+  max-height: 300px;
+}
+
+.slider {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider div {
+  text-align: center;
+}
+
+.slider img {
+  max-width: 100%;
+  height: auto;
+}
+
+.products {
+  border: solid 1px #000;
+}
+
