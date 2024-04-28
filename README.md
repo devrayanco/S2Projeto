@@ -1,8 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Começando
 
-First, run the development server:
+Primeiro, execute um dos comandos abaixo para rodar o servidor de desenvolvimento:
 
 ```bash
 npm run dev
@@ -13,24 +12,21 @@ pnpm dev
 # or
 bun dev
 ```
+"Os navegadores atuais bloqueiam chamadas locais para APIs, mesmo que em rotas públicas.
+Crie um atalho do seu navegado na área de trabalho, clique em propriedades, e em Destino deixe como o exemplo abaixo:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security
+"
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Ao abrir o seu atalho do navegador acesse  [http://localhost:3000](http://localhost:3000) 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Considerações sobre o projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Utilizei a criação do projeto por meio do starter do Next.js e ainda as bibliotecas do react e tailwind para auxiliar o desenvolvimento do código
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Meu projeto consiste em utilizar componentes para renderizar na página principal, eu utilizo um componente para exibir cada seção da da página principal
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

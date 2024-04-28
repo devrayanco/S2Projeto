@@ -54,6 +54,13 @@ p, h1 {
   .best-descktop {
     display: none;
   }
+
+  .products {
+    padding: 10px 5px;
+  }
+  .about {
+    padding: 30px 10px;  
+  }
 }
 
 
